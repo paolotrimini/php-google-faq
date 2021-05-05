@@ -133,24 +133,36 @@
     <!-- MAIN -->
     <main>
         <div class="container">
-            <?php
-            foreach($faq as $key =>$textType){
+            <div class="box-main">
+                <?php
+                foreach($faq as $key =>$textType){
 
-                echo '<div class="box-questions">' . $textType['Question'] . '</div>';
+                    echo '<div class="box-questions">' . $textType['Question'] . '</div>';
 
-                foreach($textType['Answer'] as $elem => $answers){
+                    foreach($textType['Answer'] as $elem => $answers){
 
-                    echo '<div class="box-answers">' . $answers . '</div>';
+                        echo '<div class="box-answers">' . $answers . '</div>';
 
+                    }
                 }
-            }
-            ?>
+                ?>
+            </div>
         </div>
     </main>
 
     <!-- FOOTER -->
     <footer>
-
+        <div class="container">
+            <div class="box-footer">
+                <ul>
+                    <?php
+                    foreach($footerMenu as $itemFooter){
+                        echo '<li><a href="#">' . $itemFooter . ' ' . '-' . ' ' . '</a></li>' ;
+                    }
+                    ?>
+                </ul>
+            </div>
+        </div>
     </footer>
 
 

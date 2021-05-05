@@ -38,7 +38,6 @@ ul, li {
 .main-box {
     /*debug*/
     /*background-color: lightblue;*/
-
 }
 
 .box-questions {
@@ -61,6 +60,15 @@ ul, li {
 
 
 /* FOOTER */
+
+.box-footer ul {
+   /* display: flex;
+    font-size: 15px;*/
+}
+
+.box-footer ul li {
+   /* padding: 5px 20px;*/
+}
 
 
 /* FONT */
