@@ -20,7 +20,7 @@
                 queste domande e risposte con PHP.
             */
 
-            $menu = ['Introduzione', 'Norme sulla privacy', 'Termini di servizio', 'Tecnologie', 'Domande frequenti'];
+            $headerMenu = ['Introduzione', 'Norme sulla privacy', 'Termini di servizio', 'Tecnologie', 'Domande frequenti'];
 
             $faq = [
                 [
@@ -103,9 +103,9 @@
                                   informazioni contenute nell'URL referrer potrebbero essere disponibili mediante Google Analytics o un'API (Application Programming Interface). Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all' esatte parole chiave che hanno determinato il clic su un annuncio."
                     ] // fine answer
                 ] // fine blocco 6 (ultimo)
+            ]; // fine FAQ
 
-
-            ] // fine FAQ
+            $footerMenu = ['Google', 'Tutto su Google', 'Privacy', 'Termini'];
 
 
             ?>
