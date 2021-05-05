@@ -8,6 +8,7 @@ header {
 ul, li {
     list-style-type: none;
 }
+
 .container {
     /*debug*/
     /*background-color: darkgoldenrod;*/
@@ -16,9 +17,6 @@ ul, li {
 
 /* HEADER */
 
-.box-logo {
-
-}
 
 .box-menu ul {
     display: flex;
@@ -46,7 +44,7 @@ ul, li {
     color: #3c4043;
     margin: 20px 0;
     /*debug*/
-    /*background-color: lightgreen;*/
+   /* background-color: lightgreen;*/
 }
 
 .box-answers {
@@ -61,22 +59,25 @@ ul, li {
 
 /* FOOTER */
 
+footer {
+    display: flex;
+    align-self: center;
+    height: 50px;
+    background-color: #ececec;
+}
+
 .box-footer ul {
-   /* display: flex;
-    font-size: 15px;*/
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    font-size: 15px;
 }
 
 .box-footer ul li {
-   /* padding: 5px 20px;*/
+    font-size: 11px;
+    font-weight: 300;
+    padding: 5px 10px;
 }
 
-
-/* FONT */
-
-/*
-TITOLI DOMANDE:
-font-family: 'Noto Sans', sans-serif;
-
-PARAGRAFI:
-font-family: 'Roboto', sans-serif;
-*/
+.box-footer ul li a {
+    color: #66696e;
+}

@@ -113,8 +113,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
     <!-- HEADER -->
+
     <header>
+        <div class="container">
         <div class="box-logo">
             <img src="img/" alt="Logo Google">
         </div>
@@ -128,9 +131,11 @@
             </ul>
             <hr>
         </div>
-        
+        </div>
     </header>
+
     <!-- MAIN -->
+
     <main>
         <div class="container">
             <div class="box-main">
@@ -151,13 +156,14 @@
     </main>
 
     <!-- FOOTER -->
+
     <footer>
         <div class="container">
             <div class="box-footer">
                 <ul>
                     <?php
                     foreach($footerMenu as $itemFooter){
-                        echo '<li><a href="#">' . $itemFooter . ' ' . '-' . ' ' . '</a></li>' ;
+                        echo '<li><a href="#">' . $itemFooter . '</a></li>' ;
                     }
                     ?>
                 </ul>
