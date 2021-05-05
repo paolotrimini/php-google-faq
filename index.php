@@ -113,7 +113,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+    <!-- HEADER -->
     <header>
         <div class="box-logo">
             <img src="img/" alt="Logo Google">
@@ -126,9 +126,22 @@
                 }
                 ?>
             </ul>
+            <hr>
         </div>
         
     </header>
+    <!-- MAIN -->
+    <main>
+        <div class="container">
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+    </footer>
 
 
 </body>
