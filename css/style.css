@@ -1,6 +1,74 @@
 
-
-.container {
-    background-color: darkgoldenrod;
-    color: white;
+header {
+    font-family: 'Noto Sans', sans-serif;
+    /*debug*/
+    /*background-color: green;*/
 }
+
+ul, li {
+    list-style-type: none;
+}
+.container {
+    /*debug*/
+    /*background-color: darkgoldenrod;*/
+    /*color: white;*/
+}
+
+/* HEADER */
+
+.box-logo {
+
+}
+
+.box-menu ul {
+    display: flex;
+    font-size: 15px;
+}
+
+.box-menu ul li {
+    padding: 5px 20px;
+}
+
+.box-menu ul li a {
+    color: #66696e;
+}
+
+/* MAIN */
+
+.main-box {
+    /*debug*/
+    /*background-color: lightblue;*/
+
+}
+
+.box-questions {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    color: #3c4043;
+    margin: 20px 0;
+    /*debug*/
+    /*background-color: lightgreen;*/
+}
+
+.box-answers {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #3c4043;
+    margin: 10px 0;
+    /*debug*/
+   /* background-color: lightpink;*/
+}
+
+
+/* FOOTER */
+
+
+/* FONT */
+
+/*
+TITOLI DOMANDE:
+font-family: 'Noto Sans', sans-serif;
+
+PARAGRAFI:
+font-family: 'Roboto', sans-serif;
+*/

@@ -133,9 +133,19 @@
     <!-- MAIN -->
     <main>
         <div class="container">
+            <?php
+            foreach($faq as $key =>$textType){
 
+                echo '<div class="box-questions">' . $textType['Question'] . '</div>';
+
+                foreach($textType['Answer'] as $elem => $answers){
+
+                    echo '<div class="box-answers">' . $answers . '</div>';
+
+                }
+            }
+            ?>
         </div>
-
     </main>
 
     <!-- FOOTER -->
